@@ -1,0 +1,109 @@
+.portfolio_container{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+    gap: 2.5rem;
+}
+
+.portfolio_item{
+    background: var(--color-bg-variant);
+    padding: 1.3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.portfolio_item:hover{
+ border-color: var(--color-primary-variant);
+ background: transparent;
+}
+
+.portfolio_item-image{
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.portfolio_item-image img{
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.portfolio_item h3{
+    margin: 1.2rem 0 2rem;
+}
+
+.portfolio_item-cta{
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
+
+
+
+@media screen and (max-width:1024px) {
+   .portfolio_container{
+    grid-template-columns: 1fr 1fr;
+    gap: 1.2rem;
+   }
+   
+  }
+  @media screen and (max-width:600px) {
+   .portfolio_container{
+    grid-template-columns: 1fr;
+    gap: 1rem;
+   }
+  }
+
+  .teck_stack{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 15px 0 20px;
+    width: 100%;
+  }
+
+  .teck_stack span{
+    font-family: JetBrains Mono,monospace;
+    color: #fdfdfd;
+    font-size: 12px;
+    padding: 2px 10px;
+    border-radius: 15px;
+    margin: 5px 3px;
+  }
+  .react{
+    border: 0.1rem solid #61dafb;
+  }
+  .php{
+    border: 2px solid #858eb8;
+  }
+
+.mysql{
+    border: 2px solid #496aff;
+}
+.html{
+    border: 0.1rem solid #83cd29;
+}
+
+.css{
+    border: 0.1rem solid #439934;
+}
+.js{
+    border: 2px solid #ff4154;
+}
+.ml{
+    border: 0.1rem solid #764abc;
+}
+
+.firebase{
+    border: 0.1rem solid #dda120;
+}
+.ajax{
+    border: 0.1rem solid #dd20a1;
+}
+
+.django{
+    border: 0.1rem solid #3300ff;
+}
+
+
+.aframe{
+    border: 2px solid #d2e3ff;
+}
