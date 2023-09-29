@@ -31,6 +31,15 @@ function Portfolio() {
       github:'https://github.com/tusharmore26/WorkoutBuddy',
       demo:'https://workout-buddy-gamma.vercel.app/login',
     },
+    // {
+    //   id:3,
+    //   image:IMG3,
+    //   title:"Manage Your Workout With WorkoutBuddy ",
+    //   tech:['html','css','react'],
+    //   github:'https://github.com/tusharmore26/WorkoutBuddy',
+    //   demo:'https://workout-buddy-gamma.vercel.app/login',
+    // },
+
     
   ]
 
